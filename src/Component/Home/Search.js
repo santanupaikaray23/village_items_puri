@@ -5,20 +5,18 @@ class Search extends Component{
     render(){
         return(
             <div className='imageContainer'>
-               <div id='logo'>
-                V
-               </div>
+             <div className='logo'>
+             <img src="assets/gkcityinfo.png" alt=""/>
+                
+               </div> 
                <div className='heading'>
-                Plan Buy With Us
+                <h2>Welcome</h2>
+                <h1>Website Development</h1>
+                <p>Ensuring the best return on investment for your bespoke Internship and
+                    Training.
+                </p>
                </div>
-               <div className='itemSelector'>
-                <select className='itemDropDown'>
-                    <option>---SELECT ITEM---</option>
-                </select>
-                <select className='typesDropDown'>
-                    <option>---ITEM TYPES---</option>
-                </select>
-               </div>
+              
             </div>
         )
     }

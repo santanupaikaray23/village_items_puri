@@ -1,11 +1,31 @@
 import React, {Component} from 'react';
-import './QuickSearch.css';
+import QuickDisplay from './QuickDisplay';
+
+
+ const url = "http://localhost:9600/services";
 
 class QuickSearch extends Component{
+    constructor(){
+        super()
+
+        this.state={
+            serviceType:''
+        }
+    }
     render(){
         return(
-            <div>QuickSearch</div>
+           <QuickDisplay servicedata={this.state.serviceType}/>
         )
     }
+
+    componentDidMount(){
+        fetch(url,{method:"GET"})
+        .then((res)=>res.json())
+        .then((data)=>{
+            this.setState({serviceType:data})
+        })
+    }
+
+  
 }
 export default QuickSearch;

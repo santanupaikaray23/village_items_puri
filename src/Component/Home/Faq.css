@@ -1,0 +1,51 @@
+.faq{
+    background-color: white;
+    display:flex;
+    h1{
+        font-weight: bold;
+    }  
+   .right{
+    flex:0.5;
+    position: relative;
+
+    .FaqContainer{
+        background: url(https://i.ibb.co/P9bJSLM/figure-image2.png);
+        width: 550px;
+        height: 550px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+
+        img{
+            height: 100%;
+            width: 100%;
+
+            
+
+            
+
+
+        }
+            
+
+    }
+    .heading{
+        text-align:center;
+        color:white;
+        font-size:36px;
+    .icon{
+        width: 10%;
+        height: 10%;
+    }
+
+    }
+
+   } 
+    
+
+}
