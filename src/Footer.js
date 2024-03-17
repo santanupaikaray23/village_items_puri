@@ -27,7 +27,7 @@ const Footer = () => {
         <section className='social-media'>
             <div className='social-media-warp'>
                 
-                <small className="website-right">santanu kumar paikaray@ 2021</small>
+                <small className="website-right">santanu kumar paikaray@ 2024</small>
                 <div className="social-icons">
                 
                 <div class="container">

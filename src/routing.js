@@ -10,7 +10,10 @@ import Internshipandtraining from './Component/Internship-training/Internship-tr
 import Team from './Component/Team/Team';
 import Contact from './Component/Contact/Contact';
 import Blog from './Component/Blog/Blog';
-import ListingApi from './Component/listing/listingApi'
+import ListingApi from './Component/listing/listingApi';
+import DetailComponent from './Component/details/details';
+import PlaceBooking from './Component/booking/placeBooking';
+
 
 
 const Routing = () =>{
@@ -30,6 +33,9 @@ const Routing = () =>{
         <Route path="contact" Component={Contact}/>
         <Route path="blog" Component={Blog}/>
         <Route path="/list/:id" Component={ListingApi}/>
+        <Route path='/details/:id' Component={DetailComponent}/>
+        <Route path="/booking/:check_name" Component={PlaceBooking}/>
+        
         
         </Routes>
         

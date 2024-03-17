@@ -9,7 +9,7 @@ class Faq extends Component{
         return(
         <div className='faq' id='faq'>
             <div className='left'>
-                <div className='wrapper'>
+                <div className='wrapper1'>
              
                 <h2>FAQ</h2>
                 <h1>Frequently Asked Questions</h1>

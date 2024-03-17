@@ -1,6 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import {Mail,Person} from "@material-ui/icons";
+import './Header.css';
 
 const Header = () => {
     return(
@@ -14,9 +15,11 @@ const Header = () => {
                         <span className="icon-bar"></span>
                     </button>
                     <Link class="navbar-brand" to="/">      
-                <Person className="icon" />
+                 <Person className="icon" />
         <span>9124171100</span> &nbsp;<Mail className="icon" />
-        <span>info@gkctinfo.in</span></Link>
+        <span>info@gkctinfo.in</span> 
+        <img src="assets/images/gkcityinfo.png" alt=""/>
+        </Link>
                     {/* <div className="itemContainer">
         <Person className="icon" />
         <span>+91-8917310896</span>

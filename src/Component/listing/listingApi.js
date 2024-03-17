@@ -1,37 +1,31 @@
-import React, {Component} from 'react';
+import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import ListingDisplay from './listingDisplay';
+import { useParams } from 'react-router-dom';
+import './listing.css';
+const url = "http://localhost:9600/servicesdetail";
 
+const Listing = () => {
+  const [servicesDetail, setServicesDetail] = useState([]);
+  const { id } = useParams(); // This gets the `id` param from the URL
 
-const url = "http://localhost:9600/services";
-class Listing extends Component{
-    constructor(){
-        super()
+  useEffect(() => {
+    axios.get(`${url}/${id}`)
+      .then((res) => {
+        setServicesDetail(res.data);
+      })
+      .catch((err) => {
+        console.error("Error fetching service details:", err);
+      });
+  }, [id]);
 
-        this.state={
-            servicesdetails:''
-
-        }
-    }
-    render(){
-        return(
-            <div className='row'>
-                <div className='col-md-1'>
-                    <ListingDisplay listdata={this.state.servicesdetails}/>
-
-
-                </div>
-
-            </div>
-        )
-    }
-    componentDidMount(){
-      let serviceId = this.props.match.params.id;
-      axios.get(`${url}/${serviceId}`)
-      .then((res)=>{this.setState({servicesdetails:res.data})})
-    
-
-    }
+  return (
+    <div className='row'>
+      <div className='col-md-12'>
+        <ListingDisplay listdata={servicesDetail} />
+      </div>
+    </div>
+  );
 }
 
 export default Listing;

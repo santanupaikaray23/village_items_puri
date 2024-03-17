@@ -13,7 +13,6 @@ body{
     text-align: center;
     font-weight: bold;
     font-size: 90px;
-    background-color:white;
     height:150px;
     width:150px;
     margin:auto;
@@ -22,12 +21,20 @@ body{
     margin-bottom: 80px;
 }
 img{
-    height:150px;
-    width:150px;
+    height:50px;
+    width:50px;
    
     
 
 }
+.wrapper{
+    width: 100%;
+    height: 200px;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
 
 .heading{
     text-align:center;
@@ -36,25 +43,30 @@ img{
 
 }
 
-.itemSelector{
-    margin-top: 20px;
-    margin-bottom: 40px;
-    text-align: center;
-}
+h5{
+    text-align: left;
+    color: blue;
+    line-height: .01;
+    letter-spacing: normal;
+    font-size:38px;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-top: -400px;
 
-.itemDropDown{
-    width:250px;
-    height:60px;
-    border-radius: 0%;
-    font-size: 20px;
-    border: none;
-}
 
-.typesDropDown{
-    border: none;
-    width:370px;
-    height:60px;
-    border-radius:0%;
-    font-size: 20px;
-    margin-left:10px;
+    span{
+        font-size: inherit;
+        color: crimson;
+    }
+ 
+}
+p1{
+    text-align: left;
+    color: black;
+    letter-spacing: normal;
+    font-size:25px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+
+    }
 }
