@@ -20,10 +20,8 @@ const Routing = () =>{
     return(
         <div className="routing">
         <BrowserRouter>
-       
         <Header/>
         <Routes>
-        
         <Route exact path="/" Component={Home}/>
         <Route path="about" Component={About}/>
         <Route path="service" Component={Service}/>

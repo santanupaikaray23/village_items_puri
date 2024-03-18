@@ -38,7 +38,7 @@ const ListingDisplay = (props) => {
         }else{
             return(
                 <div className='item'>
-                    <img src='/assets/images/loader.gif' alt=''/>
+                    <img src='/assets/loader (1).gif' alt=''/>
                 </div>
             )
 

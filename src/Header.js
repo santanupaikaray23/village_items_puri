@@ -18,7 +18,7 @@ const Header = () => {
                  <Person className="icon" />
         <span>9124171100</span> &nbsp;<Mail className="icon" />
         <span>info@gkctinfo.in</span> 
-        <img src="assets/images/gkcityinfo.png" alt=""/>
+        <img src="assets/gkcityinfo (1).png" alt=""/>
         </Link>
                     {/* <div className="itemContainer">
         <Person className="icon" />

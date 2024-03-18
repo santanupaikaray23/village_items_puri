@@ -22,7 +22,7 @@ const Details = () => {
         <div className='container'>
             <div className='panel panel-primary'>
                 <div className='panel-heading'>
-                    <h3>{check.name}</h3>
+                    <h7>{check.name}</h7>
                     <div className='panel-body'>
                         <div className='row'>
                               <div className='col-md-12'>
@@ -33,7 +33,7 @@ const Details = () => {
                 </div>
                 <h6>Do you want to take this service?</h6>
                 <Link to="/" className="btn btn-danger">Back</Link>&nbsp;
-            <Link to={`/booking/${Details.name}`} className="btn btn-success">
+            <Link to={`/booking/${check.name}`} className="btn btn-success">
                 Proceed
             </Link>
             </div>

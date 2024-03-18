@@ -16,6 +16,8 @@ class Experience extends Component{
                         of time. We care about your business, which is why we work with you.
                     </p>
                 </div>
+                <hr/>
+                &nbsp;
                 <h2>EXPERIENCE</h2>
                 <div className='ExpContainer'>
                 
