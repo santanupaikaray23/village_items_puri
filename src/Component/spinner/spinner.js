@@ -5,7 +5,7 @@ export default function Spinner() {
   
     return (
         <div className="fullscreen-loader">
-          <img src="assets/200w.gif" alt="Loading spinner" />
+          <img src="assets/loader.gif" alt="Loading spinner" />
         </div>
       );
      

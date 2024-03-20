@@ -72,6 +72,7 @@ const Placementoffered =(props)=>{
         }
     }
     return(
+     
         <div className='placementofferedContainer'>
             <p className='placementofferedHeading'>
                 Placement offered By Us
@@ -80,6 +81,7 @@ const Placementoffered =(props)=>{
             <br/>
             {listPlacementoffered(props)}
         </div>
+    
     )
 }
 export default Placementoffered;

@@ -7,6 +7,7 @@ import 'react-tabs/style/react-tabs.css';
 class Faq extends Component{
     render(){
         return(
+         
         <div className='faq' id='faq'>
             <div className='left'>
                 <div className='wrapper1'>
@@ -79,6 +80,7 @@ class Faq extends Component{
 
         </div>
     </div>
+
          
         )
     }

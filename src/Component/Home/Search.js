@@ -13,6 +13,7 @@ function Search() {
     }, []);
 
     return (
+      
         <div className='imageContainer'>
             <div className='logo'>
                 {/* Logo can go here */}
@@ -26,6 +27,7 @@ function Search() {
                 </div>
             </div>
         </div>
+    
     );
 }
 

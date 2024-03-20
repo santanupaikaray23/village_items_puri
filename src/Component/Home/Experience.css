@@ -39,9 +39,11 @@
         position: relative;
     }
 
-    p{
+    p1{
         font-weight: normal;
         font-family:Georgia, 'Times New Roman', Times, serif;
+        color: white;
+        
         
  }
     table, tr, th, td{
@@ -79,6 +81,7 @@
     }
     h1{
         font-weight: bold;
+        color: white;
         
        
 

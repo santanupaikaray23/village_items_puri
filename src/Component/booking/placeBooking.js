@@ -46,6 +46,7 @@ const [loading, setLoading] = useState(false);
                 swal("Submited Successfully");
                 setUser({
                     check_name: check_name,
+                    name:"",
                     email: "",
                     phone: ""
                     
@@ -61,7 +62,7 @@ const [loading, setLoading] = useState(false);
     };
 
     return(
-        <div className="container">
+      
             <div className="panel panel-primary">
                 <div className="panel-heading">
                     Booking
@@ -77,6 +78,11 @@ const [loading, setLoading] = useState(false);
                     />
                 </div>
                 {/* The rest of your form */}
+                <div className="form-group">
+                <label> Enter your Name :</label>
+                 <input type="name" name="name" placeholder="name" id="name" required autoComplete="off"
+                 value={user.name} onChange={handleInput} className="form-control"/>
+                 </div>
                 <div className="form-group">
                 <label> Enter your Email Address :</label>
                  <input type="email" name="email" placeholder="email" id="email" required autoComplete="off"
@@ -96,6 +102,6 @@ const [loading, setLoading] = useState(false);
                 </div>
             )}
         </div>
-        </div>
+      
     );
 }

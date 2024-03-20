@@ -43,6 +43,7 @@ const QuickDisplay = (props)=>{
         <br/>
         {listService(props)}
     </div>
+   
    )
 }
 export default QuickDisplay;

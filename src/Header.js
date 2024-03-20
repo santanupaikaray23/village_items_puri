@@ -2,10 +2,11 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import {Mail,Person} from "@material-ui/icons";
 import './Header.css';
+<meta name="viewport" content="width=device-width, initial-scale=1"></meta>
 
 const Header = () => {
     return(
-        <div>
+       
             <nav className="navbar navbar-inverse">
                 <div className="container-fluid">
                     <div className="navbar-header">
@@ -18,7 +19,7 @@ const Header = () => {
                  <Person className="icon" />
         <span>9124171100</span> &nbsp;<Mail className="icon" />
         <span>info@gkctinfo.in</span> 
-        <img src="assets/gkcityinfo (1).png" alt=""/>
+        <img src="assets/gkcityinfo.png" alt=""/>
         </Link>
                     {/* <div className="itemContainer">
         <Person className="icon" />
@@ -43,7 +44,7 @@ const Header = () => {
                     </div>
                 </div>
             </nav>
-        </div>
+    
     )
 }
 

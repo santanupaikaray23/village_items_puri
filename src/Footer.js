@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return(
+       
         <div className='footer-container'>
         <section className='footer-subscription'>
         <div className='input-areas'>
@@ -50,6 +51,7 @@ const Footer = () => {
             </div>
         </section>
 </div>
+
       
     )
 }

@@ -19,26 +19,26 @@ const Details = () => {
     }, [id]);
 
     return (
-        <div className='container'>
+       
             <div className='panel panel-primary'>
                 <div className='panel-heading'>
                     <h7>{check.name}</h7>
                     <div className='panel-body'>
                         <div className='row'>
-                              <div className='col-md-12'>
-                                <img className='img-responsive' src={check.image} style={{height:400,width:1500}} alt=''/>
+                              <div className='col-sm-12'>
+                                <img className='img-responsive' src={check.image} style={{height:400,width:1500,padding:60}} alt=''/>
                               </div>
                         </div>
                     </div>
                 </div>
-                <h6>Do you want to take this service?</h6>
+                <h6>Do you really want to take this service?</h6>
                 <Link to="/" className="btn btn-danger">Back</Link>&nbsp;
             <Link to={`/booking/${check.name}`} className="btn btn-success">
                 Proceed
             </Link>
             </div>
             
-        </div>
+     
     );
 };
 

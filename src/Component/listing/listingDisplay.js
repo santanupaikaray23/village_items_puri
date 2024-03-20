@@ -28,8 +28,10 @@ const ListingDisplay = (props) => {
 
             }else{
                 return(
+                    <div className='container'>
                     <div className='item'>
                        <h2>No Data Found</h2>
+                    </div>
                     </div>
                 )
 
@@ -37,14 +39,17 @@ const ListingDisplay = (props) => {
          
         }else{
             return(
+                < div className='container'>
                 <div className='item'>
                     <img src='/assets/loader (1).gif' alt=''/>
+                </div>
                 </div>
             )
 
         }
     }
     return(
+     
         <div className='container-fluid'>
             <div className='main-heading'>
                 <div className='col-md-12'>
@@ -53,6 +58,7 @@ const ListingDisplay = (props) => {
             </div>
        
         </div>
+    
     )
     
 }

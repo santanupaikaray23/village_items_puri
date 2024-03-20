@@ -4,6 +4,7 @@ import './Experience.css';
 class Experience extends Component{
     render(){
         return(
+           
         <div className='experience' id='experience'>
             <div className='left'>
                 <div className='wrapper'>
@@ -24,7 +25,7 @@ class Experience extends Component{
                 <div className='heading'>
                 
                 <h1>Expand Your Digital Presence</h1>
-                <p>Your app is your tool for better communication with yours followers </p>
+                <p1>Your app is your tool for better communication with yours followers </p1>
                </div>
              
                 
@@ -63,7 +64,7 @@ class Experience extends Component{
                 </table>
                 &nbsp;
                 &nbsp;
-                <h1>Pay for Qualified Traffic</h1>
+                <h4>Pay for Qualified Traffic</h4>
                 <p>Gkctinfo stays ahead of the curve with digital marketing
                     trends. Our success has us leading the pack amongst our
                     competitors with our ability to anticipate change and
@@ -141,7 +142,7 @@ class Experience extends Component{
                
 
         </div>
-         
+       
         )
     }
 }
